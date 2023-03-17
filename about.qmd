@@ -1,0 +1,15 @@
+---
+title: "About"
+about:
+  template: jolla
+  image: apple.webp
+  image-width: 5cm
+  image-shape: round
+  links: 
+    - icon: github
+      text: Github
+      
+---
+
+About this site
+

@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "luo"
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - file: "achievements.qmd"
+        text: Achievements
+    right: 
+      - icon: linkedin
+        href: www.linkedin.com
+      - icon: twitter
+        href: www.twitter
+
+format:
+  html:
+    theme: 
+      light: Sketchy 
+      dark: Superhero
+    css: styles.css
+    toc: true
+
+editor: visual
+
