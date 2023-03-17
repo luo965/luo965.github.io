@@ -1,8 +1,17 @@
 project:
   type: website
+  output-dir: docs
+  
+execute: 
+  freeze: true
 
 website:
   title: "luo"
+  description: the personal website of luo
+  site-url: https://luo965.github.io/
+  repo-url: https://github.com/luo965.github.io/
+  twitter-card: true
+  open-graph: true
   navbar:
     search: true
     left:
